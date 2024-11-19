@@ -26,7 +26,10 @@ function initializeToolbars(toolbars) {
 // Tracking injection
 
 function createListener() {
+    alert('Views tracking on');
+
     console.log("Views tracking on");
+
     const polishTitleInput = document.querySelector('input[name="polishTitle"]');
 
     function updateTrackers(iframes, title) {
