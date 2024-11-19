@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "ISOD Editor Extension",
+    "version": "1.0",
+    "description": "Extension for easy ISOD news views tracking.",
+    "permissions": ["scripting"],
+    "content_scripts": [
+      {
+        "matches": ["https://isod.ee.pw.edu.pl/isod-stud/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+  
